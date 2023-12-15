@@ -1,0 +1,93 @@
+.monarch-container{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../assets/images/pexels-pixabay-162539\ \(1\).jpg");
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    padding-top: 8.75rem;
+
+}
+
+.monarch-title{
+    color: #FFFFFF;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.15rem;
+    padding: 1.75rem;
+    border-left:  10px solid #ffb400;
+    margin-bottom: 2rem;
+}
+
+
+.monarch-paragraph{
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 2.188rem; 
+    color: #FFFFFF;
+    margin-bottom: 3.375rem;
+    width: 758px;
+}
+
+
+.client-date{
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .monarch-container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .monarch-title {
+        margin-left: 100px;
+    }
+
+    .monarch-paragraph {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .client-date {
+        text-align: left;
+        margin-left: 100px;
+    }
+}
+
+
+
+@media (max-width: 425) {
+    .monarch-container {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .monarch-title {
+        margin-left: 100px;
+    }
+
+    .monarch-paragraph {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .client-date {
+        text-align: left;
+        margin-left: 100px;
+    }
+}
+
+
+

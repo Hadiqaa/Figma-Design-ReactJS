@@ -1,0 +1,108 @@
+.middle-main{
+    display: flex;
+    height : 900px;
+}
+
+.middle-left-wrap{
+flex: 1;
+display: flex;
+background-repeat: no-repeat;
+background-size: cover;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+background-image: url("../../../assets/images/pexels-quang-nguyen-vinh-2138126.jpg");
+padding-left: 180px;
+}
+
+.middle-right-wrap{
+background-color: #f7f7f7;
+flex: 3;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.middle-heading{
+font-size: 45px;
+font-weight: 800;
+line-height: 50.4px;
+margin-top: 80px;
+width: 820px;
+}
+
+
+.middle-heading::after{
+    content: "";
+    background: #ffb400;
+    display: block;
+    height: 7px;
+    width: 8%;
+}
+
+.middle-footer{
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+   
+}
+
+.yellow-side{
+flex: 1;
+display: flex;
+flex-direction: column;
+background-color: #ffb400;
+width: 50%;
+height: 150px;
+justify-content: center;
+align-items: center;
+
+}
+
+.black-side{
+flex: 1;
+display: flex;
+background-color: #2a2a2a;
+flex-direction: column;
+width: 50%;
+height: 150px;
+justify-content: center;
+align-items: center;
+}
+
+
+.right-wrap3-middle{
+    display: flex;
+    width:800px;
+    color:#666666;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+}
+
+.yellow-side-heading{
+font-size: 40px;
+font-weight: 800;
+color: #000000; 
+}
+
+.yellow-side-text{
+   color:#000000;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.24px;
+}
+
+.black-side-heading{
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF; 
+    }
+    
+.black-side-text{
+    color:#FFFFFF;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.24px;
+}

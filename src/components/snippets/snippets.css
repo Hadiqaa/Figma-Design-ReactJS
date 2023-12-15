@@ -1,0 +1,41 @@
+.snippet-main-wrap{
+display: flex;
+margin-left: 35px;
+margin-top: 45px;
+}
+
+.snippet-icon-wrap{
+margin: 13px;
+
+}
+
+.snippet-right-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 240px;
+}
+
+.icon{
+width: 54.039px;
+height: 53px;
+flex-shrink: 0;
+}
+
+.snippet-title{
+color:#2A2A2A;    
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 4px;
+
+}
+
+.snippet-text{
+color: #FFF;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.8px;
+line-height: 27px;
+
+}

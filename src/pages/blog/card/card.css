@@ -1,0 +1,48 @@
+.BlogCard{
+background-color: #fff;
+ display: flex;
+ flex-direction: column;
+ width: 321px;
+ min-height: 410px;
+ height:auto;
+ margin-bottom: 90px;
+}
+
+.cardImage{
+    width: 321px;
+    height: 215px;
+    background-repeat: no-repeat;
+}
+
+.blogDescription{
+ margin-left: 25px;
+}
+
+.cardTitle{
+    color:  #666;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    padding-top:16px ;
+    padding-bottom:5px ;
+    margin-bottom: 0rem;
+}
+
+.dateAdded{
+    color: #C9C9C9;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.56px;
+    margin-bottom: 0px;
+}
+
+.cardDescription{
+    color:  #666;
+    width: 95%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px; /* 192.857% */
+    letter-spacing: 0.56px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}

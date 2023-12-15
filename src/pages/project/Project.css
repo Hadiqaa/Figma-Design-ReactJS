@@ -1,0 +1,78 @@
+.imageComponent{
+background-image: url("../../assets/images/pexels-pixabay-273209.jpg");
+width: 73%;
+height: 700px;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+.main{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+}
+
+
+@media only screen 
+and (max-width: 768px) {
+
+.imageComponent{
+    width: 90%;
+    height: 80vh; 
+        
+}
+        
+}
+
+.RelatedProjects{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background-color: #F7F7F7;
+    justify-content: center;
+    align-items: flex-start;
+   
+    
+   }
+   
+   .RelatedProjectsMini{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   }
+   
+   
+   .RelatedProjectsRows{
+       display: flex;
+       flex-direction: row;
+   }
+
+
+   .RelatedProjectsTitle{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 38px;
+    margin-bottom: 38px;
+   }
+
+
+   .RelatedProjectsTitle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Position at the middle of the heading */
+    transform: translateX(-50%); /* Center the line */
+    width: 48px; /* Set the width of the line */
+    height: 5px; /* Set the height or thickness of the line */
+    background-color: #ffb400; /* Set the color of the line */
+    display: block;
+   }
