@@ -7,8 +7,10 @@ const Footer = () => {
     return (
         <React.Fragment>
              <div className="footer-container">
+              
 
                     <div className='footer-left-container'>
+                        <div className='FooterMiniContainer'>
                               <div className='footer-heading-container'>
                                   <p className='footer-heading'>Contact Us</p>
                               </div>
@@ -25,36 +27,36 @@ const Footer = () => {
                               <div className='button-container'>
                                     <Button value="SEND MESSAGE"  style={{color:"#ffffff",borderWidth:"5px", borderColor:"#ffffff"}}></Button>
                               </div>
+                         </div>
                     </div>
 
 
                     <div className='footer-right-container'>
                               <div className='top-section'>
-
-                                        <span style={{width:"26px", height:"26px", marginRight:"71px"}}> <img src={icons.facebook} alt="" />  </span>
-                                        <span style={{width:"26px", height:"26px",marginRight:"71px"}}> <img src={icons.twitter} alt="" /> </span>
-                                        <span style={{width:"26px", height:"26px"}}> <img src={icons.linkedin} alt="" /> </span>
-                                       
+                                        <span  className="socialIcon"> <img src={icons.facebook} alt="" />  </span>
+                                        <span  className="socialIcon"> <img src={icons.twitter} alt="" /> </span>
+                                        <span  className="socialIcon"> <img src={icons.linkedin} alt="" /> </span>
                               </div>
 
                               <div className='bottom-section'>
-                                   <div style={{marginTop:"70px"}}>
+                                  <div className='informationContainer'>
                                         <p className='informarion'>
-                                        <span> <img src={icons.pin} alt="" className='pinicon' /></span>
+                                       <img src={icons.pin} alt="" className='pinicon' />
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         </p>
 
                                         <p className='informarion'>
-                                        <span><img src={icons.phone} alt="" className='phoneicon'/></span> 
+                                        <img src={icons.phone} alt="" className='phoneicon'/>
                                         +00 123 456 78
                                         </p>
 
                                         <p className='informarion'>
-                                        <span> <img src={icons.mail} alt="" className='mailicon'/></span>
+                                       <img src={icons.mail} alt="" className='mailicon'/>
                                         constractioninc@gmail.com
                                         </p>
                                    </div>
                               </div>
+                              
                     </div>
              </div>
         </React.Fragment>
